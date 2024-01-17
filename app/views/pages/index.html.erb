@@ -24,7 +24,18 @@
     <li>Coworkers</li>
     <li>RentAPresident</li>
     <li>LSF</li>
+</div>
 
+<%=Contact.last.first_name%>
+
+<%= simple_form_for @contact do |f| %>
+  <%= f.input :first_name %>
+  <%= f.input :last_name %>
+  <%= f.input :email %>
+  <%= f.button :submit %>
+<% end %>
+
+</div>
 </body>
 
 </html>
