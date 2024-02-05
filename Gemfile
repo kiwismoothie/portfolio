@@ -4,6 +4,7 @@ ruby "3.1.2"
 
 gem "simple_form"
 gem 'sassc', '~> 2.4'
+  gem "font-awesome-sass", "~> 6.1"
 
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem "rails", "~> 7.1.2"
@@ -61,9 +62,6 @@ group :development do
 
   # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
   # gem "spring"
-
-  gem "font-awesome-sass", "~> 6.1"
-
   gem "error_highlight", ">= 0.4.0", platforms: [:ruby]
 end
 
