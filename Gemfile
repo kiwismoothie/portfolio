@@ -2,6 +2,8 @@ source "https://rubygems.org"
 
 ruby "3.1.2"
 
+gem "pg"
+
 gem "simple_form"
 gem 'sassc', '~> 2.4'
   gem "font-awesome-sass", "~> 6.1"
