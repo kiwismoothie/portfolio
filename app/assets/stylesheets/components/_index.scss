@@ -4,3 +4,58 @@
 @import "form_legend_clear";
 @import "navbar";
 @import "banner";
+
+
+cssCopy code#content {
+  cursor: pointer;
+  text-align: right;
+  padding: 20px;
+}
+
+#hiddenText, #hiddenText2 {
+  display: none;
+  text-align: left;
+  padding: 20px;
+  margin-top: 30px;
+  width: 1000px;
+  position: absolute;
+  right: 150px;
+  top : 700px;
+}
+
+
+#espace {
+  margin-top: 30px;
+}
+
+#coworkers-logo {
+  width: 140px;
+  margin-right: 20px;
+}
+
+#rent-logo {
+  width: 140px;
+  margin-right: 20px;
+}
+
+.row {
+  margin-top: 30px;
+}
+
+.my-projects {
+  padding-top: 30px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  margin-bottom: 10px;
+  a {
+    text-decoration: none;
+    color: black;
+  }
+}
+
+

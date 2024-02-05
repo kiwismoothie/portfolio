@@ -5,6 +5,7 @@ class ContactsController < ApplicationController
 
 
   def index
+    @contact = Contact.new
     @contacts = Contact.all
   end
 
@@ -12,9 +13,10 @@ class ContactsController < ApplicationController
     @contact = Contact.new(contact_params)
 
     if @contact.save
-      redirect_to root_path, notice: "Contact was successfully created."
+      flash[:success] = "Thank you"
+      redirect_to root_path
     else
-      render :new, status: :unprocessable_entity
+      render :index, status: :unprocessable_entity
     end
   end
 
