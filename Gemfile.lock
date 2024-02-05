@@ -265,7 +265,7 @@ DEPENDENCIES
   font-awesome-sass (~> 6.1)
   importmap-rails
   jbuilder
-  pg
+  pg (>= 0.18, < 2.0)
   puma (>= 5.0)
   rails (~> 7.1.2)
   redis (>= 4.0.1)
