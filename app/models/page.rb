@@ -1,2 +1,2 @@
-class Pro < ApplicationRecord
+class Page < ApplicationRecord
 end
