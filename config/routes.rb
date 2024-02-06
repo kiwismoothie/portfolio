@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  get 'static_pages/allcontacts'
   get 'contacts/new'
   get 'contacts/create'
   get 'contacts/destroy'
@@ -10,6 +11,7 @@ Rails.application.routes.draw do
 
   # Defines the root path route ("/")
   root "contacts#index"
-
+  get 'allcontacts' => 'static_pages#show', as: 'allcontacts'
+  
   resources :contacts, only: [:new, :index, :create]
 end
