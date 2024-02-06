@@ -5,6 +5,15 @@ import "controllers"
 // creer un texte avec le contenu et le lien pour coworkers
 
 
+const carin = document.querySelector("#carine")
+
+carin.addEventListener("click", (event) => {
+  event.preventDefault()
+  console.log("clicked coworkers")
+});
+
+
+
 const coworkers = document.querySelector("#coworkers")
 
 let hiddenText = document.querySelector("#hiddenText")

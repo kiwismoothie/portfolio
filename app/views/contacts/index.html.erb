@@ -1,9 +1,7 @@
 <!DOCTYPE html>
-<html> <!-- lang="fr" -->
-
+<html>
 
 <head>
-
   <title>Laura portfolio</title>
   <meta name="description" content="This is the portfolio of Laura Berretta as a full stack web developper.">
   <meta charset="utf-8">
@@ -13,14 +11,15 @@
 </head>
 
 <body>
+
   <div class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url(https://res.cloudinary.com/dpuyx30vh/image/upload/v1702979334/paris_xugwy7.jpg);">
-  <div class="container">
-    <h1>Laura Berretta</h1>
-  </div>
+    <div class="container">
+      <h1>Laura Berretta</h1>
+      <p>Fullstack web developper</p>
+    </div>
 </div>
 
-
-  <div id="hidden-banner" class ="banner" style="background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url(https://res.cloudinary.com/dpuyx30vh/image/upload/v1703153910/production/8df9ynxj5tz9kx3xzbo5w1irn2vo.png);">
+  <div id="hidden-banner" class ="banner" id="show" style="background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url(https://res.cloudinary.com/dpuyx30vh/image/upload/v1703153910/production/8df9ynxj5tz9kx3xzbo5w1irn2vo.png);">
   <div class="container">
       <p> Hi there 👋, I'm Laura!
   I’m a fullstack web developper with 15 years experience in e-commerce. <br>
@@ -92,6 +91,8 @@
 </div>
 
 
+
+
 <div class ="container form">
   <%= simple_form_for @contact do |f| %>
       <h2 class="my-projects">Contact Form</h2>
@@ -110,6 +111,9 @@
 Else you can contact me at <a href="mailto:lauraberretta@hotmail.com">
 lauraberretta@hotmail.com
 </a>
+</div>
+
+
 
 </body>
 
