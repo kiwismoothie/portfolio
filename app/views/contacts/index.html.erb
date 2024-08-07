@@ -3,7 +3,7 @@
 
 <head>
   <title>Laura portfolio</title>
-  <meta name="description" content="This is the portfolio of Laura Berretta as a full stack web developper.">
+  <meta name="description" content="Site de présentation du roman Les soeurs fachées, de Laura Berretta">
   <meta charset="utf-8">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.2/css/all.css">
   <link rel="preconnect" href="https://rsms.me/">
@@ -12,105 +12,16 @@
 
 <body>
 
-  <div class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url(https://res.cloudinary.com/dpuyx30vh/image/upload/v1702979334/paris_xugwy7.jpg);">
+<div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/breakfast.jpg)">
+  Breakfast
+</div>
+
     <div class="container">
       <h1>Laura Berretta</h1>
-      <p>Fullstack web developper</p>
-    </div>
-</div>
-
-  <div class ="banner" style="background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url(https://res.cloudinary.com/dpuyx30vh/image/upload/v1710947725/development/dqnge6jb71gzsc8237dudemmyinn.png);">
-
-
-  <div class="container">
-    <div class="col-sm-6">
-      <p> Hi there 👋, I'm Laura!
-  I’m a fullstack web developper with 15 years experience in e-commerce. <br>
-  I’m available for: </p>
-    </div>
-  <br><br><br>
+      <p>auteur du roman "Les soeurs fâchées"</p>
     </div>
 
-  <div class="container">
-      <p>
-        <ul>
-          <li>Writing specifications together to agree on features</li>
-          <li>Designing a framework together to agree on a look</li>
-          <li>Creating a website that answers your needs</li>
-        </ul>
-      </p>
-    </div>
-  </div>
 
-<div class="container" class="row">
-<div class="d-flex">
-  <div class="row">
-    <h2 class="my-projects">My projects</h2>
-      <ul class="ul-list">
-        <li><a href=# id="coworkers">Coworkers</a></li>
-        <li><a href=# id="rent">RentAPresident</a></li>
-      </ul>
-  </div>
-
-
-  <div class="row">
-    <div id ="hiddenText">
-      <div class="d-flex justify-content-between">
-          <div class="left">
-          <a href="https://www.coworkers-app.com">
-          <img src="https://res.cloudinary.com/dpuyx30vh/image/upload/v1706109193/logo-coworkers-6_um4qwo.png"
-          id="coworkers-logo" alt="coworkers logo"
-          width= "100px">
-          </a>
-          </div>
-
-        <div class="right">
-          <p><b>Coworkers</b> is an app that allows remote workers to connect with others who have an appropriate spot to work at their place at a fair price.<br>I <b>coordinated a team of 4</b> one this project and developped parts of the front and the back end. <br>I used <b>Ruby</b> on Rails, HTML, <b>CSS</b>, Bootstrap, Javascript, PostgreSQL, Heroku, Cloudinary, Mapbox. I also cocreated the design of the app. </p>
-        </div>
-
-      </div>
-    </div>
-  </div>
-  </div>
-  </div>
-
-
-  <div class="row">
-  <div id ="hiddenText2">
-    <div class="d-flex justify-content-between">
-
-        <div class="left">
-        <a href="https://airbnb-debom28-6ae8e3ad5c66.herokuapp.com/">
-        <img src="https://res.cloudinary.com/dpuyx30vh/image/upload/v1706126477/rentapresident_uc7baa.png"
-        id="rent-logo" alt="rent a president logo"
-        width= "100px">
-        </a>
-        </div>
-
-      <div class="right">
-        <p><b>RentAPresident</b> is a just for fun app that allows people to rent a president to perform chores. It was built with the same team as <b>Coworkers</b> as a dummy project during <b>Le Wagon</b> bootcamp. <br>Additional feature "Add to favorites" was used in this usecase.</p>
-      </div>
-
-    </div>
-  </div>
-  </div>
-  </div>
-</div>
-
-<div class ="container form">
-  <%= simple_form_for @contact do |f| %>
-      <h2 class="my-projects">Contact Form</h2>
-      <%= f.input :first_name %>
-      <%= f.input :last_name %>
-      <%= f.input :email %>
-      <%= f.input :project %>
-      <%= f.button :submit %>
-  <% end %>
-   <% flash.each do |message_type, message| %>
-       <div class="alert alert-<%= message_type %>"><%= message %></div>
-    <% end %>
-</div>
-<br>
 
 <div class="container">
 Else you can contact me at <a href="mailto:lauraberretta@hotmail.com">

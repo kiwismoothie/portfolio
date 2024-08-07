@@ -5,8 +5,12 @@ ruby "3.1.2"
 gem 'pg', '>= 0.18', '< 2.0'
 
 gem "simple_form"
-gem 'sassc', '~> 2.4'
-  gem "font-awesome-sass", "~> 6.1"
+
+gem "sassc-rails"
+
+gem "bootstrap", "~> 5.2"
+
+gem "font-awesome-sass", "~> 6.1"
 
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem "rails", "~> 7.1.2"
@@ -19,8 +23,6 @@ gem "sqlite3", "~> 1.4"
 
 # Use the Puma web server [https://github.com/puma/puma]
 gem "puma", ">= 5.0"
-
-
 
 gem "cloudinary"
 
